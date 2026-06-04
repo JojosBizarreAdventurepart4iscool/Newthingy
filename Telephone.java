@@ -4,6 +4,7 @@ public class Telephone {
         num = subNum(num);
         num = modNum(num);
         num = (int)squareRoot(num);
+        num = multiply(num);
     }
 
     public static int subNum(int y) {
@@ -16,5 +17,8 @@ public class Telephone {
 
     public static double squareRoot(int s) {
         return (int)Math.sqrt(s);
+    }
+    public static int multiply(int m) {
+        return m * 600000000;
     }
 }
